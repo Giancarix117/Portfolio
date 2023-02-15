@@ -1,24 +1,17 @@
-import * as React from "react";
-import Button from "./Button";
+import React from "react";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
 
-const App = ({ value = 0 }) => {
-  const [count, setCount] = React.useState(0);
+import Skills from "./components/Skills";
+import Testimonials from "./components/Testimonials";
 
-  const handleClick = () => {
-    setCount(count + 1);
-  };
-
+export default function App() {
   return (
-    <div>
-      <Button type="button" onClick={handleClick} data-testid="counter-button">
-        Click Me
-      </Button>
-
-      <pre data-testid="counter-result">{value + count}</pre>
-
-      <pre data-testid="counter-starting-value">{value}</pre>
-    </div>
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <Navbar />
+      <About />
+      <Contact />
+    </main>
   );
-};
-
-export default App;
+}
