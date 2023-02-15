@@ -11,9 +11,8 @@ export default function About() {
             I'm working on becoming the ultimate cybersecurity dude!
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            Welcome to my amazing portfolio. Its second to none. You will never
+            find a better portfolio than this. Trust me i looked.
           </p>
           <div className="flex justify-center">
             <a

@@ -1,5 +1,10 @@
 {
-  "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended"],
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "plugin:prettier/recommended",
+    "plugin:storybook/recommended"
+  ],
   "rules": {
     "react/prop-types": "off",
     "testing-library/prefer-screen-queries": "off"

@@ -22,7 +22,7 @@ export default function Navbar() {
           </li>
           <li className="p-4">
             <a href="#certs" className="hover:underline">
-              Certfications
+              huevos
             </a>
           </li>
         </ul>
