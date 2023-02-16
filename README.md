@@ -8,7 +8,7 @@ This project is my amazing portfolio. It has a bit of information about me. So f
 2. Install Node.js and NPM if you haven't already.
 3. Run the following command to install the required dependencies:
 
-` npm install `
+`npm install`
 
 ## Getting started
 
