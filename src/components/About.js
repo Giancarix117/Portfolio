@@ -1,5 +1,6 @@
 import React from "react";
-import Button from "./Button.js";
+
+import CounterButton from "./CounterButton.js";
 export default function About() {
   return (
     <section id="about">
@@ -21,7 +22,9 @@ export default function About() {
             >
               Work With Me
             </a>
-            <Button />
+            <a className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              <CounterButton />
+            </a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
