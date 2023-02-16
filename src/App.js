@@ -1,12 +1,18 @@
-import React from "react";
+import * as React from "react";
+
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Button from "./components/Button";
-import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
+// import Skills from "./components/Skills";
+// import Testimonials from "./components/Testimonials";
 
-export default function App() {
+const App = ({ value = 0 }) => {
+  // const [count, setCount] = React.useState(0);
+
+  // const handleClick = () => {
+  //   setCount(count + 1);
+  // };
+
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
@@ -14,4 +20,6 @@ export default function App() {
       <Contact />
     </main>
   );
-}
+};
+
+export default App;
