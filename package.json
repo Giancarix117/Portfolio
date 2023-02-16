@@ -26,14 +26,15 @@
     "test": "craco-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write .",
-    "lint": "eslint src",
+    "lint": "eslint --max-warnings 0 src",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier src test --check",
     "prettier:fix": "npm run prettier -- --write",
     "prepare": "husky install",
     "eslint:github-action": "eslint src/",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=e7c064441fd0"
   },
   "browserslist": {
     "production": [
@@ -59,6 +60,7 @@
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.17.0",
     "eslint-plugin-storybook": "^0.6.10",
     "postcss-preset-env": "^8.0.1",
     "prop-types": "^15.8.1",
@@ -76,5 +78,7 @@
         }
       }
     ]
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "my-app@0.1.0"
 }
