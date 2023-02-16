@@ -1,4 +1,4 @@
 {
   "*.js": "eslint --max-warnings 0",
-  "*.{json,md}": "prettier"
+  "*.{json,md}": "prettier --check --ignore-path .gitignore"
 }
