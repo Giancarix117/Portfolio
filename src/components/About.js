@@ -22,9 +22,11 @@ export default function About() {
             >
               Work With Me
             </a>
-            <a className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+            <button
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg" /* eslint-disable-next-line jsx-a11y/anchor-is-valid */
+            >
               <CounterButton />
-            </a>
+            </button>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
