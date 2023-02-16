@@ -1,15 +1,15 @@
-import * as React from "react";
-import "@testing-library/jest-dom";
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import Navbar from "./components/Navbar";
+import resume from "./assets/resume.pdf";
 
-import { render } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
-import App from "./App";
+describe("Navbar", () => {
+  test("renders the About and huevos links", () => {
+    render(<Navbar />);
+    const aboutLink = screen.getByText(/About/i);
+    expect(aboutLink).toBeInTheDocument();
 
-it("number gets increased with click", async () => {
-  const { getByTestId } = render(<App />);
-  expect(getByTestId("counter-starting-value")).toHaveTextContent("0");
-  expect(getByTestId("counter-result")).toHaveTextContent("0");
-  userEvent.click(getByTestId("counter-button"));
-  expect(getByTestId("counter-starting-value")).toHaveTextContent("0");
-  expect(getByTestId("counter-result")).toHaveTextContent("1");
+    const huevosLink = screen.getByText(/huevos/i);
+    expect(huevosLink).toBeInTheDocument();
+  });
 });
