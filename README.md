@@ -8,7 +8,7 @@ This project is my amazing portfolio. It has a bit of information about me. So f
 2. Install Node.js and NPM if you haven't already.
 3. Run the following command to install the required dependencies:
 
-` npm install @heroicons/react@2.0.15 @testing-library/jest-dom@5.16.5 @testing-library/react@13.4.0 @testing-library/user-event@13.5.0 eslint@8.33.0 eslint-config-prettier@8.6.0 eslint-plugin-prettier@4.2.1 eslint-plugin-react@7.32.2 husky@8.0.3 lint-staged@13.1.1 prettier@2.8.3 prettier-eslint@15.0.1 react@18.2.0 react-dom@18.2.0 react-scripts@5.0.1 web-vitals@2.1.4`
+` npm install `
 
 ## Getting started
 
