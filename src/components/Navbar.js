@@ -10,12 +10,6 @@ export default function Navbar() {
               About
             </a>
           </li>
-
-          <li className="p-4">
-            <a href="#certs" className="hover:underline">
-              huevos
-            </a>
-          </li>
         </ul>
         <a
           href={resume}
