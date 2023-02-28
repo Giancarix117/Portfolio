@@ -17,7 +17,7 @@ export default function Navbar() {
           target="_blank"
           className=" bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border border-4"
         >
-          Resume
+          Curriculum
         </a>
       </div>
     </div>
