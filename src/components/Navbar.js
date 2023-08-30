@@ -19,6 +19,14 @@ export default function Navbar() {
         >
           Curriculum
         </a>
+        <a
+          href="certificates.html"
+          rel="noreferrer"
+          target="_blank"
+          className="bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border border-4 ml-4"
+        >
+          Certificates
+        </a>
       </div>
     </div>
   );
